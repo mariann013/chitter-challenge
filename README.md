@@ -40,5 +40,7 @@ The application is written in ruby using datamapper and a postgres database. Tes
 Instalation:
   - Clone git repo 
   - Run bundle install from the command line
+  - In psql createdb chitter_development
+  - Then rake auto_migrate
   - Run rspec to run the tests
   - Run rackup or ruby app.rb and visit the local host to interact with the app
